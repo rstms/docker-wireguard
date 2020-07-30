@@ -44,3 +44,20 @@ Also, because wireguard needs to install a kernel module on the host, proper cle
 [Stavros Korokithakis](https://www.stavros.io) and his awesome [write up](https://www.stavros.io/posts/how-to-configure-wireguard/)
 
 And of course, [wireguard](https://www.wireguard.com/), for one awesome VPN
+
+
+## addendum:
+
+2020-07-30 mkrueger@rstms.net
+
+changed to work on:
+```
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.4 LTS
+Release:	18.04
+Codename:	bionic
+```
+```
+uname -a
+Linux ats-regression-gateway 5.3.0-1032-aws #34~18.04.2-Ubuntu SMP Fri Jul 24 10:06:28 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+```
